@@ -111,10 +111,10 @@ section p {
 
 .clients {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    height: 250px;
 }
 
 .clients a {
@@ -201,7 +201,7 @@ footer {
     color: #065f87;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 500px) {
     .clients {
         flex-direction: column;
         height: auto;
