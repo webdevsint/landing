@@ -255,7 +255,8 @@ footer {
 
 @media (max-width: 520px) {
   .container {
-    margin: calc(1rem + 48px);;
+    margin: 1rem;
+    margin-top: calc(1rem + 48px);;
   }
 
   .header {
