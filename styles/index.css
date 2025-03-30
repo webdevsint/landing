@@ -17,6 +17,14 @@
   text-decoration: none;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 .loader {
   display: flex;
   justify-content: center;
@@ -36,6 +44,10 @@ header {
   display: flex;
   gap: 3rem;
   padding-inline: 3rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 nav {
@@ -56,13 +68,14 @@ nav a:hover {
 
 .container {
   margin: 2rem;
+  margin-top: calc(2rem + 48px);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: none;
   flex-direction: column;
   gap: 3rem;
   border-radius: 6px;
   animation: fade 1s linear;
-  background: rgb(255, 255, 255);
+  background: white;
 }
 
 .header {
@@ -271,5 +284,14 @@ footer {
 
   footer {
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 0;
   }
 }
