@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans";
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -126,7 +126,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-size: large;
 }
 
 .intro-text button {
@@ -141,7 +140,6 @@ main {
   border-radius: 3px;
   transition: 0.2s;
   -webkit-tap-highlight-color: transparent;
-  font-size: 15px;
 }
 
 .intro-text button:hover {
