@@ -130,7 +130,7 @@ main {
 
 .intro-text button {
   width: fit-content;
-  padding: 0.6rem 1rem;
+  padding: 0.4rem 1rem;
   background: hsl(219, 100%, 64%);
   color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
