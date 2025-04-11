@@ -27,7 +27,7 @@ function viewFrames() {
 
   setTimeout(() => {
     document.querySelector(".loader").style.display = "none";
-    fadeInOut();
+    // fadeInOut();
   }, 800)
 }
 
