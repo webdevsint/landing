@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frames by Nehan Yaser</title>
+    <link rel="stylesheet" href="/styles/frames.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome-pro.vercel.app/css/all.min.css"
+    />
+  </head>
+  <body>
+    <audio src="/assets/frames/farda.mp3"></audio>
+
+    <div class="now-playing">
+      <h5><i class="fa-regular fa-music-note"></i> Farda - Bayaan</h5>
+    </div>
+
+    <div class="loader">
+      <div class="loader-text">
+        <div class="intro-text">
+          <h2>Ramadan / Eid Dump</h2>
+
+          <p>
+            I wasn't actually serious when I said "next দুই মাস পড়ব না" after test ended, but here we are. HSC is in about two months, right? But, honestly, I'm not going to regret not studying because I probably had the best Ramadan. I don't know what the future holds, but at least I'll have these photos to reminisce on. Anyways, time to lock in, bye!
+          </p>
+
+          <button onclick="viewFrames()">View Highlights</button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="center content"
+      style="flex-direction: column; width: 100vw"
+      id="content"
+    >
+      <div class="header center">
+        <h1><a href="/frames.html">Frames</a> <span>by Nehan Yaser</span></h1>
+      </div>
+
+      <main>
+        <div class="image-container">
+
+          <div class="frame">
+            <img src="/assets/frames/1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/3.jpg" style="width: 100%" />
+          </div>
+          <div class="frame">
+            <img src="/assets/frames/4.jpg" style="width: 100%" />
+          </div>
+          <div class="frame">
+            <img src="/assets/frames/5.jpg" style="width: 100%" />
+          </div>
+          <div class="frame">
+            <img src="/assets/frames/6.jpg" style="width: 100%" />
+          </div>
+          <div class="frame">
+            <img src="/assets/frames/7.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/8.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/9.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/10.jpg" style="width: 100%" />
+          </div>
+
+          <div class="frame">
+            <img src="/assets/frames/11.jpg" style="width: 100%" />
+          </div>
+          
+          <button class="button-prev" onclick="plusDivs(-1)">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="button-next" onclick="plusDivs(1)">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script src="/scripts/frames.js"></script>
+  </body>
+</html>

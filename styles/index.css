@@ -48,6 +48,7 @@ header {
   top: 0;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: 9999;
 }
 
 nav {
@@ -163,6 +164,10 @@ section p {
 
 .client-card img {
   width: 200px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .client-card p {
@@ -190,6 +195,10 @@ section p {
   cursor: pointer;
   transition: 0.1s;
   border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .socials {
@@ -256,7 +265,7 @@ footer {
 @media (max-width: 520px) {
   .container {
     margin: 1rem;
-    margin-top: calc(1rem + 48px);;
+    margin-top: calc(1rem + 48px);
   }
 
   .header {
