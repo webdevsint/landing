@@ -1,5 +1,3 @@
-screen.orientation.lock();
-
 let slideIndex = 1;
 showDivs(slideIndex);
 
