@@ -32,11 +32,6 @@ a:active {
   color: #065f87;
   height: calc(100vh - 48px);
 }
-
-body {
-  background: #fbfbfb;
-}
-
 header {
   background: #161616;
   color: white;
@@ -70,7 +65,6 @@ nav a:hover {
 .container {
   margin: 2rem;
   margin-top: calc(2rem + 48px);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: none;
   flex-direction: column;
   gap: 3rem;

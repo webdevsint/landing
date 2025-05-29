@@ -1,3 +1,5 @@
+screen.orientation.lock();
+
 let slideIndex = 1;
 showDivs(slideIndex);
 
@@ -27,7 +29,7 @@ function viewFrames() {
 
   setTimeout(() => {
     document.querySelector(".loader").style.display = "none";
-    // fadeInOut();
+    fadeInOut();
   }, 800)
 }
 
