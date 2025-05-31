@@ -9,8 +9,19 @@
   color: white;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
 body {
   background: #050505;
+  animation: fade 1s linear;
 }
 
 .x-sm {
