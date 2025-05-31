@@ -118,6 +118,7 @@ section .row {
 .date,
 .platform {
   width: 100px;
+  text-align: left;
 }
 
 .date p,
@@ -129,7 +130,7 @@ section .row {
 }
 
 .technologies {
-  font-weight: 300;
+  font-family: "sf-light", sans-serif;
 }
 
 .project {
