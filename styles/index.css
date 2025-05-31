@@ -61,7 +61,7 @@ main {
 }
 
 .about .title {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about p {
@@ -75,27 +75,35 @@ section {
 }
 
 .socials {
-    gap: 1.5rem;
+  gap: 1.5rem;
 }
 
 section .row {
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
   width: 100%;
 }
 
-.date, .platform {
+@media (min-width: 450px) {
+  .row {
+    gap: 2rem;
+  }
+}
+
+.date,
+.platform {
   width: 100px;
 }
 
 .date p,
-.technologies, .platform {
+.technologies,
+.platform {
   color: #9f9f9f;
   font-size: 14px;
 }
 
 .technologies {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .project {
@@ -104,32 +112,26 @@ section .row {
   gap: 4px;
 }
 
-.project a, .socials a {
-    text-decoration: none;
-    max-width: fit-content;
+.project a,
+.socials a {
+  text-decoration: none;
+  max-width: fit-content;
 }
 
-.project a:hover, .socials a:hover {
-    text-decoration: underline;
+.project a:hover,
+.socials a:hover {
+  text-decoration: underline;
 }
 
-.project i, .socials i {
-    margin-left: 5px;
-    font-size: 14px;
+.project i,
+.socials i {
+  margin-left: 5px;
+  font-size: 14px;
 }
 
-@media (max-width: 415px) {
-    .row p {
-        text-align: left;
-    }
-}
-
-@media (max-width: 380px) {
-    .row p {
-        text-align: left;
-    }
-
-    .container {
-        padding: 1.5rem;
-    }
+@media (max-width: 450px) {
+  .row {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
 }
