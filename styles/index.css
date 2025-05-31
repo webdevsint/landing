@@ -141,6 +141,7 @@ section .row {
 
 .project a,
 .socials a {
+  font-size: 14px;
   text-decoration: none;
   max-width: fit-content;
 }
