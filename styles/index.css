@@ -130,6 +130,14 @@ section .row {
 }
 
 @media (max-width: 450px) {
+  .container {
+    gap: 1.4rem;
+  }
+
+  section {
+    gap: 1.4rem;
+  }
+
   .row {
     flex-direction: column;
     gap: 0.7rem;
