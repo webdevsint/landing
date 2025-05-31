@@ -1,10 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); */
+
+@font-face {
+  font-family: 'sf'; /* Give your font a name */
+  src: url('/assets/sf.OTF') format('opentype'); /* Specify the path to your font file and its format */
+  font-weight: normal; /* Optional: Define font weight (normal, bold, etc.) */
+  font-style: normal;  /* Optional: Define font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'sf-light'; /* Give your font a name */
+  src: url('/assets/sf-light.ttf') format('opentype'); /* Specify the path to your font file and its format */
+  font-weight: light; /* Optional: Define font weight (normal, bold, etc.) */
+  font-style: normal;  /* Optional: Define font style (normal, italic, etc.) */
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "sf", sans-serif;
   text-align: justify;
   color: white;
 }
@@ -37,7 +51,7 @@ body {
 }
 
 .light {
-  font-weight: 300;
+  font-family: "sf-light", sans-serif;
 }
 
 .grey {
@@ -57,7 +71,7 @@ main {
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .hero {
@@ -67,22 +81,23 @@ main {
 }
 
 .title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 .about .title {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .about p {
   color: #9f9f9f;
+  font-size: 14px;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .socials {
@@ -91,7 +106,6 @@ section {
 
 section .row {
   display: flex;
-  /* gap: 2rem; */
   width: 100%;
 }
 
@@ -109,7 +123,8 @@ section .row {
 .date p,
 .technologies,
 .platform {
-  color: #9f9f9f;
+  color: white;
+  opacity: 0.5;
   font-size: 14px;
 }
 
