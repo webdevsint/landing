@@ -176,4 +176,8 @@ section .row {
     flex-direction: column;
     gap: 0.7rem;
   }
+
+  .socials .row {
+    gap: 0.4rem;
+  }
 }
