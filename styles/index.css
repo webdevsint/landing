@@ -63,7 +63,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-block: 5rem;
+  margin-block: 4rem;
 }
 
 .container {
@@ -86,7 +86,7 @@ main {
 }
 
 .about .title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .about p {
@@ -97,7 +97,7 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.8rem;
 }
 
 .socials {
@@ -137,6 +137,12 @@ section .row {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.description {
+  font-size: 14px;
+  color: #9f9f9f;
+  text-align: left;
 }
 
 .project a,
