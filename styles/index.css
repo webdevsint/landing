@@ -55,7 +55,7 @@ body {
 }
 
 .grey {
-  color: #9f9f9f;
+  color: #FFFFFFA3;
 }
 
 main {
@@ -90,7 +90,7 @@ main {
 }
 
 .about p {
-  color: #9f9f9f;
+  color: #FFFFFFA3;
   font-size: 14px;
 }
 
@@ -141,7 +141,7 @@ section .row {
 
 .description {
   font-size: 14px;
-  color: #9f9f9f;
+  color: #FFFFFFA3;
   text-align: left;
 }
 
