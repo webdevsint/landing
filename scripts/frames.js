@@ -28,16 +28,24 @@ function viewFrames() {
   setTimeout(() => {
     document.querySelector(".loader").style.display = "none";
     fadeInOut();
-  }, 800)
+  }, 800);
 }
 
 function fadeInOut() {
   // Fade In
-  document.querySelector('.now-playing').style.opacity = 1;
+  document.querySelector(".now-playing").style.opacity = 1;
 
   // Wait for 10 seconds
   setTimeout(() => {
     // Fade Out
-    document.querySelector('.now-playing').style.opacity = 0;
+    document.querySelector(".now-playing").style.opacity = 0;
   }, 8000); // 10000 milliseconds = 10 seconds
 }
+
+window.addEventListener("load", function () {
+  const preloader = document.getElementById("preloader");
+  preloader.classList.add("fade-out");
+  preloader.addEventListener("transitionend", function () {
+    preloader.classList.add("hidden");
+  });
+});

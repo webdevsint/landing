@@ -38,10 +38,6 @@ body {
   animation: fade 1s linear;
 }
 
-.hidden {
-  display: none;
-}
-
 .x-sm {
   font-size: 12px;
 }
@@ -168,10 +164,6 @@ section .row {
 }
 
 @media (max-width: 450px) {
-  .hidden {
-    display: block;
-  }
-  
   .container {
     gap: 1.4rem;
   }
